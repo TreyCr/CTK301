@@ -1,0 +1,46 @@
+a {
+ color: #ff0000;
+}
+
+a:visited {
+ color: #00ff00;
+}
+
+a:hover {
+ color: #ffff00;
+}
+
+header {
+  color: #b50b0b;
+  background-color: #000000;
+}
+
+main {
+  color: #1e82c9;
+  background-color: #03131f;
+}
+
+.spanstyle {
+  color: #2fa31a;
+  background-color: #0c2b07;
+}
+
+#divexample {
+  color: #cc9423;
+  background-color: #302000;
+}
+
+#specialid {
+ color: #ba87f5;
+ background-color: #1f0d33;
+}
+
+.specialp {
+ color: #1f0d33;
+ background-color: #ba87f5
+}
+
+footer {
+  color: #ad17ab;
+  background-color: #ffcffe;
+}
