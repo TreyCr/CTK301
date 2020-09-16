@@ -1,0 +1,37 @@
+body {
+background-image: url(isubg.jpg);
+background-repeat: center;
+background-position: top center;
+}
+
+a {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+header {
+font-family: sans-serif;
+font-style: italic;
+color: #ff5500;
+font-weight: normal;
+}
+
+main {
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+.imgbox {
+  border: 5px solid #000000;
+  padding: 10px;
+  background-color: #ffffff;
+  margin: 20px 20px 20px 20px;
+}
+
+footer {
+  font-family: sans-serif;
+  text-align: center;
+}
