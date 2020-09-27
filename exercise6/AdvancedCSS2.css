@@ -1,0 +1,46 @@
+body { background-color: #999999; }
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 1px solid #ff0000;
+  background-color: #ffffff;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 100px auto 75px;
+}
+
+header {
+  border: solid 1px red;
+  grid-column: span 12;
+}
+
+nav {
+  border: solid 1px red;
+  grid-column: span 3;
+}
+
+main {
+  border: solid 1px red;
+  grid-column: span 9;
+}
+
+footer {
+  border: solid 1px red;
+  grid-column: span 12;
+}
+
+.floatimage {
+  width: 150px;
+  margin: 0 20px 20px 0;
+  float: left;
+}
+
+.p2 {
+  clear: both;
+}
+
+.p1, .p2 {
+}
