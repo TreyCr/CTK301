@@ -49,6 +49,8 @@ nav li a {
 
 nav li a:hover {
   background-color: #cc0000;
+  text-decoration: none;
+  color: #000000;
 }
 
 
