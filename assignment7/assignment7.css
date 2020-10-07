@@ -1,0 +1,125 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 1em auto;
+  width: 960px;
+  border: 3px solid #00479f;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 100px auto 75px;
+}
+
+h1 {
+  font-family: helvetica, sans-serif;
+  color: #66ccff;
+  list-style-type: none;
+  font-weight: normal;
+  text-decoration: none;
+  margin: 0;
+  padding: 20px;
+  grid-column: span 12;
+}
+
+.wp {
+  background-image: linear-gradient(to bottom, #0089e8, #0078d6, #0067c4, #0057b1, #00479f);
+  font-style: italic;
+  color: #66ccff;
+}
+
+a {
+  text-decoration: none;
+  font-family: helvetica, sans-serif;
+  color: #66ccff;
+}
+
+a:hover {
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  font-size: 18px;
+  padding: 10px 10px 5px 10px;
+  margin: 10px 0 0 0;
+}
+
+nav a:hover {
+  color: white;
+  background-image: linear-gradient(to top, #0089e8, #0078d6, #0067c4, #0057b1, #00479f);
+}
+
+.link {
+  width: 200px;
+  font-style: normal;
+  font-weight: bold;
+  display: inline-block;
+  background-image: linear-gradient(to bottom, #0089e8, #0078d6, #0067c4, #0057b1, #00479f);
+}
+
+main {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  grid-column: span 12;
+}
+
+h2 {
+  font-family: helvetica, sans-serif;
+  border-bottom: solid 3px #00479f;
+  color: #00479f;
+  width: 920px;
+  font-weight: normal;
+  padding: 0 0 10px 0;
+  margin: 20px 0 0 20px;
+}
+
+.p1 {
+  padding: 0 20px 0 20px;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.p2 {
+  font-family: georgia, serif;
+  font-weight: normal;
+  margin: 20px;
+}
+
+.Hargreeves {
+  padding: 0;
+  margin: 20px;
+  border: solid 3px #00479f;
+  float: left;
+}
+
+.adademy {
+  padding: 0;
+  margin: 20px;
+  border: solid 3px #00479f;
+  float: right;
+}
+
+.gang {
+  padding: 0;
+  margin: 20px;
+  border: solid 3px #00479f;
+  float: left;
+}
+
+.isufoot {
+  width: 200px;
+  margin: 5px;
+}
+
+footer {
+grid-column: span 12;
+border-top: solid 3px #00479f;
+background-color: #d93f3f;
+}
